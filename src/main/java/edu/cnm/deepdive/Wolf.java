@@ -7,7 +7,7 @@ public class Wolf extends Canis {
   }
 
   public Wolf() {
-    System.out.println("When the wolf constructor completes th wold is ready.");
+    System.out.println("When the wolf constructor completes the Wolf is ready.");
   }
   @Override
   public void hunt() {
@@ -16,15 +16,6 @@ public class Wolf extends Canis {
 
   @Override
   public void vocalize() {
-    System.out.println("Communicate by howling for a variety of purposes.");
-  }
 
-  public static void describe() {
-    System.out.println("Wolf is a large canine native to Eurasia and North America.");
-
-  }
-
-  {
-    System.out.println("We shouldnt have initialization block here but for Wolf we do.");
   }
 }
