@@ -4,6 +4,9 @@ import java.sql.SQLOutput;
 
 public class Coyote extends Canis {
 
+  static {
+    System.out.println("initializing Coyote class");
+  }
   {
     System.out.println("Performing common initialization of Coyote.");
   }
